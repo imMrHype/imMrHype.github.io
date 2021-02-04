@@ -1,0 +1,27 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(basemod.avi);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox.white {
+    background: url(xbox-assets/base-white.svgz);
+}
+
+.xbox.disconnected {
+    background: url(xbox-assets/disconnected.svgz);
+}
+
+.xbox.disconnected div {
+    display: none;
+}
+
+.xbox .triggers {
+    width: 446px;
+    height: 121px;
+    position: absolute;
+    left: 152px;
+}
